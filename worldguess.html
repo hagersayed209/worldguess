@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>world guess</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  
+  <div class="container">
+    <div class="game-info">
+      <div class="game-name">
+        worng Guesses:<span id="maxguess">0</span>of<span >5</span>
+      </div>
+      <div class="draw">
+        <div class="tries1">
+          <img src="https://img.icons8.com/ios-filled/40/fa314a/hearts.png"class="tries" />
+        </div>
+        <div class="tries2">
+          <img src="https://img.icons8.com/ios-filled/40/fa314a/hearts.png" class="tries"/>
+        </div>
+        <div class="tries3">
+          <img src="https://img.icons8.com/ios-filled/40/fa314a/hearts.png"class="tries"/>
+        </div>
+        <div class="tries4">
+          <img src="https://img.icons8.com/ios-filled/40/fa314a/hearts.png"class="tries" />
+        </div>
+        <div class="tries5">
+          <img src="https://img.icons8.com/ios-filled/40/fa314a/hearts.png"class="tries" />
+        </div>
+      </div>
+      <div class="category" >
+        Word From: <span id="category"></span>
+     
+      </div>
+     
+    </div>
+
+
+
+    <div class="row">
+
+      <div class="letters-guess"></div>
+      <div class="letters"></div>
+    </div>
+
+   
+    <button onclick="playAgin()" >Play Agin</button>
+    <button onclick="login()" >end game</button>
+  </div>
+  <audio id="success" src="success.wav" preload="auto"></audio>
+  <audio id="fail" src="FX_Negative_Slide_Down.wav" preload="auto"></audio>
+  <script src="main.js"></script>
+</body>
+
+</html>

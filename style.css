@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(back.jpg);
+   
+    margin: 0;
+}
+
+
+#home {
+    
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 99;
+    transform: translate(-0%,-0%);
+}
+
+ img {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    border-radius: 40px;
+    width: 40%;
+    cursor: pointer;
+     
+}
+
+
+
+img {
+
+    animation: img 3s infinite;
+
+    -webkit-animation: img 3s infinite;
+
+}
+
+
+
+@keyframes img {
+
+    0%, 50%, 90% {
+
+        transform: rotate(0deg);
+
+        -webkit-transform: rotate(0deg);
+
+    }
+
+    60% {
+
+        transform: rotate(5deg) scale(1);
+
+        -webkit-transform: rotate(5deg) scale(1);
+
+    }
+
+    70% {
+
+        transform: rotate(-5deg) scale(0.97);
+
+        -webkit-transform: rotate(-5deg) scale(0.97);
+
+    }
+
+    80% {
+
+        transform: rotate(5deg) scale(1.05);
+
+        -webkit-transform: rotate(5deg) scale(1.05);
+
+    }
+
+}
+
+
+
+@-webkit-keyframes img {
+
+    0%, 50%, 90% {
+
+        transform: rotate(0deg);
+
+        -webkit-transform: rotate(0deg);
+
+    }
+
+    60% {
+
+        transform: rotate(5deg) scale(1);
+
+        -webkit-transform: rotate(5deg) scale(1);
+
+    }
+
+    70% {
+
+        transform: rotate(-5deg) scale(0.97);
+
+        -webkit-transform: rotate(-5deg) scale(0.97);
+
+    }
+
+    80% {
+
+        transform: rotate(5deg) scale(1.05);
+
+        -webkit-transform: rotate(5deg) scale(1.05);
+
+    }
+
+}
